@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             widgetContent.innerHTML = data;
             var widgetStyles = document.createElement("link");
             widgetStyles.rel = "stylesheet";
-            widgetStyles.href = "dem-widget.css";
+            widgetStyles.href = "https://cauchy-consult.github.io/dem-widget/dem-widget.css";
             document.head.appendChild(widgetStyles);
 
             const showDemDialog = document.getElementById("show-dem-dialog");
