@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Include widget-specific CSS styles
     var widgetStyles = document.createElement('link');
     widgetStyles.rel = 'stylesheet';
-    widgetStyles.href = 'https://raw.githubusercontent.com/Cauchy-Consult/dem-widget/test-tag-1.3/dem-widget.css';
+    widgetStyles.href = 'https://cauchy-consult.github.io/dem-widget/dem-widget.css';
     document.head.appendChild(widgetStyles);
 });
