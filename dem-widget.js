@@ -1,11 +1,10 @@
-console.log("is my js executing??")
-
 document.addEventListener('DOMContentLoaded', function () {
     // Access the container div by its id
     var widgetContainer = document.getElementById('dem-widget-container');
     console.log("DOMLOADED?")
     // Create and render the widget content within the container
     var widgetContent = document.createElement('div');
+    widgetContent.className = 'dem-widget-btn-container'
     widgetContent.innerHTML = '<button class="dem-widget-btn" role="button">Yay, lets go!</button>';
     widgetContainer.appendChild(widgetContent);
 
