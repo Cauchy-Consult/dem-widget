@@ -7,9 +7,9 @@ widgetContent.innerHTML = '<button class="dem-widget-btn" role="button">Yay les 
 widgetContainer.appendChild(widgetContent);
 
 // You can also load additional JavaScript and CSS for the widget dynamically if needed
-var widgetScript = document.createElement('script');
-widgetScript.src = 'path/to/your-widget.js';
-document.head.appendChild(widgetScript);
+// var widgetScript = document.createElement('script');
+// widgetScript.src = 'path/to/your-widget.js';
+// document.head.appendChild(widgetScript);
 
 // Include widget-specific CSS styles if necessary
 var widgetStyles = document.createElement('link');
