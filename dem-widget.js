@@ -3,7 +3,7 @@ var widgetContainer = document.getElementById('your-widget-container');
 
 // Create and render the widget content within the container
 var widgetContent = document.createElement('div');
-widgetContent.innerHTML = 'Your widget content here';
+widgetContent.innerHTML = '<button class="dem-widget-btn" role="button">Yay les go!</button>';
 widgetContainer.appendChild(widgetContent);
 
 // You can also load additional JavaScript and CSS for the widget dynamically if needed
