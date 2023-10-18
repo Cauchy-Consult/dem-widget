@@ -1,5 +1,5 @@
 // Access the container div by its id
-var widgetContainer = document.getElementById('your-widget-container');
+var widgetContainer = document.getElementById('dem-widget-container');
 
 // Create and render the widget content within the container
 var widgetContent = document.createElement('div');
@@ -14,5 +14,6 @@ widgetContainer.appendChild(widgetContent);
 // Include widget-specific CSS styles if necessary
 var widgetStyles = document.createElement('link');
 widgetStyles.rel = 'stylesheet';
-widgetStyles.href = 'path/to/your-widget-styles.css';
+widgetStyles.href = 'https://raw.githubusercontent.com/Cauchy-Consult/dem-widget/test-tag-1.1/dem-widget.css';
+
 document.head.appendChild(widgetStyles);
