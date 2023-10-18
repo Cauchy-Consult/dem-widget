@@ -1,4 +1,11 @@
 
+.dem-widget-btn-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
 .dem-widget-btn {
   background-color: #EA4C89;
   border-radius: 8px;
