@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     widgetContent.className = "dem-widget-btn-container";
     // widgetContent.innerHTML = '<button class="dem-widget-btn" role="button">Yay, lets go!</button>';
 
-    fetch("dem-widget.html")
+    fetch("https://cauchy-consult.github.io/dem-widget/dem-widget.html")
         .then((response) => response.text()) // Get the response text
         .then((data) => {
             // Insert the content into the container
